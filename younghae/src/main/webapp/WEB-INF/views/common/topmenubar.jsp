@@ -12,8 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>메뉴바</title>
 
-    <!--jQuery-->
-    <script src = "https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<!--jQuery 제이쿼리는 본인 jsp 페이지 최상단에 위치해야합니다. 그래야 제이쿼리가 중복되어 충돌이 발생하는 문제가 일어나지 않습니다.-->
+<!--     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script> -->
     
     <!-- Google Font : (1)오가니 (2)봉은추가 font-family: 'IBM Plex Sans KR', sans-serif; 추천 -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -112,20 +112,19 @@
 
     
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="${contextPath}/js/bootstrap.min.js"></script>
+    <script src="${contextPath}/js/jquery.nice-select.min.js"></script>
+    <script src="${contextPath}/js/jquery-ui.min.js"></script>
+    <script src="${contextPath}/js/jquery.slicknav.js"></script>
+    <script src="${contextPath}/js/mixitup.min.js"></script>
+    <script src="${contextPath}/js/owl.carousel.min.js"></script>
+    <script src="${contextPath}/js/main.js"></script>
     
     <!-- 추가 -->
-    <script src="js/bootstrap.bundle.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="${contextPath}/js/bootstrap.bundle.js"></script>
+    <script src="${contextPath}/js/bootstrap.bundle.min.js"></script>
         
     
 </body>
