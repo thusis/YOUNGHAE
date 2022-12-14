@@ -1,3 +1,8 @@
+/.metadata/
+younghae/.mvn/wrapper/maven-wrapper.jar
+younghae/src/main/java/com/kh/younghae/YounghaeApplication.java
+younghae/src/test/java/com/kh/younghae/YounghaeApplicationTests.java
+
 maven-wrapper.properties
 mvnw
 mvnw.cmd
