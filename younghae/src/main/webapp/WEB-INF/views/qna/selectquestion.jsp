@@ -9,13 +9,22 @@
 <title>질문게시판 - 질문 상세보기</title>
 
     <!--내가만든 css-->
-    <link rel="stylesheet" href="css/bn_style.css" type="text/css">
+    <link rel="stylesheet" href="${contextPath}/css/bn_style.css" type="text/css">
+	
+	<!-- jQuery -->	
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+
+    <!-- 써머 노트 :CDN방식 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
 	
 </head>
 <body>
 
 	<jsp:include page="../common/topmenubar.jsp" flush="true"/>
 
+	${ test }
     <div class="container">
         <div class="bn_index mt-5">
             <ul>
@@ -114,6 +123,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="col-lg-10">
 
